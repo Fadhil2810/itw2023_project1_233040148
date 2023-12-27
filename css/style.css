@@ -25,6 +25,7 @@ body  {
     z-index: 100;
 }
 
+/* Navbar */
 .logo {
     position: relative;
     font-size: 25px;
@@ -71,6 +72,7 @@ body  {
     color: #00abf0;
 }
 
+/* Home */
 .home {
     height: 100vh;
     display: flex;
@@ -79,7 +81,7 @@ body  {
 .home-content {
     margin: auto;
     max-width: 600px;
-    padding: 150px 0;
+    padding: 200px 0;
     margin-top: 4rem;
     margin-left: 15rem;
 }
@@ -133,7 +135,7 @@ body  {
     animation-delay: .4s;
     z-index: 2;
 }
-
+/* hire me, lets talk */
 .btn-box a {
     position: relative;
     display: inline-flex;
@@ -188,6 +190,7 @@ body  {
     width: 100%;
 }
 
+/* icon media sosial */
 .home-sci {
     position: absolute;
     bottom: 40px;
@@ -260,6 +263,7 @@ body  {
     transition: .5s;
 }
 
+/* home-image */
 .img {
     margin-left: 750px;
     margin-top: -500px;
@@ -270,12 +274,13 @@ body  {
         width: 0;
     }
 }
-
+/* about */
+/* about-image */
 .imgg img {
     width: 400px;
     border-radius:50%;
     margin-left: 50px;
-    margin-top: 120px;
+    margin-top: 170px;
     margin-bottom: 80px;
 }
 
@@ -292,12 +297,12 @@ body  {
     padding-right: 200px;
 }
 
+/* hoby */
 .hoby {
     align-items: center;
     margin-top: 50px;
     color: white;
     padding: 50px;
-
 }
 
 .hoby .pis {
@@ -311,6 +316,7 @@ body  {
     padding: 50px;
 }
 
+/* hoby-image */
 .pap img {
     height: auto;
     width: 200px;
@@ -322,7 +328,11 @@ body  {
     background-color: white;
     padding: 20px;
 }
+.pap {
+    margin-left: 10rem;
+}
 
+/* services */
 .services {
     background-color: #081b29;
     width: 100%;
@@ -332,10 +342,6 @@ body  {
 }
 .box{
     margin: auto;
-}
-.pap {
-    margin-left: 10rem;
-
 }
 .title {
     width: 100%;
@@ -348,7 +354,6 @@ body  {
     text-align: center;
     margin-top: 5%;
     align-items: center;
-
 }
 
 .box {
@@ -366,8 +371,8 @@ body  {
     border-radius: 20px;
     margin: 15px;
     position: relative;
-    text-align: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
  
 }
 
@@ -385,14 +390,7 @@ h5 {
     font-size: 23px;
     margin-bottom: 15px;
     text-align: center;
-    
 }
-
-/* .pra p {
-    color: #fcfc;
-    font-size: 15px;
-    margin-bottom: 15px;
-} */
 
 .card .button {
     background-color: yellow;
@@ -421,6 +419,7 @@ h5 {
     color: yellow;
 }
 
+/* contact */
 .contact {
     background: #081b29;
     padding: 30vh;
@@ -451,6 +450,7 @@ h5 {
     transition: .2s;
 }
 
+/* footer */
 footer {
     padding: 4rem 0;
     background: rgb(1, 1, 38); 
